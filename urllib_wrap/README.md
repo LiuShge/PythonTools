@@ -1,6 +1,6 @@
 # urllib-wrap
 
-`urllib-wrap` is a lightweight wrapper on top of Python's `urllib`, now condensed into a single implementation file `urllibw.py` while keeping the public API unchanged.
+`urllib_wrap` is a lightweight wrapper on top of Python's `urllib`, now condensed into a single implementation file `urllibw.py` while keeping the public API unchanged.
 
 ## Features
 

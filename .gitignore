@@ -1,0 +1,38 @@
+# Python / project metadata
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.env
+*.venv/
+venv/
+env/
+pip-wheel-metadata/
+*.log
+
+# Distribution / build
+build/
+dist/
+.eggs/
+*.whl
+
+# IDE/editor
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# other caches
+*.pytest_cache/
+*.mypy_cache/
+*.coverage
+coverage.xml
+
+# lock files
+poetry.lock
+Pipfile.lock

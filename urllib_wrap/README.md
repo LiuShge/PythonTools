@@ -1,6 +1,6 @@
 # urllib-wrap
 
-`urllib-wrap` is a lightweight wrapper on top of Python's `urllib` that keeps the implementation file-based and exposes a single entry point at `urllibw.py`.
+`urllib-wrap` is a lightweight wrapper on top of Python's `urllib`, now condensed into a single implementation file `urllibw.py` while keeping the public API unchanged.
 
 ## Features
 
@@ -67,23 +67,11 @@ post(url, params={"q": 1}, json={"a": 1})
 ## Repository Structure
 
 ```
-urllib-wrap/
-  _core.py
-  delete.py
-  errors.py
-  get.py
-  head.py
-  options.py
-  patch.py
-  post.py
-  put.py
-  rollup.py
-  urllibw.py
+urllib_wrap/
+  urllibw.py   # single-file implementation and public API
+  README.md
 ```
 
 ## Notes
 
-- `urllibw.py` is the unified public API surface.
-- `_core.py` keeps the transport plumbing in one place.
-- `rollup.py` exposes overload-friendly helpers and normalizes arguments.
-- Each verb file forwards to `_core.request` while documenting the semantic permit.
+- `urllibw.py` now contains transport plumbing, verb helpers, overloads, and the error hierarchy in one place.

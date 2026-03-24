@@ -511,9 +511,9 @@ def _options_to_kwargs(options: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-# =========================
+# ========================
 # Public verbs
-# =========================
+# ========================
 
 @overload
 def get(url: str, /) -> Response: ...

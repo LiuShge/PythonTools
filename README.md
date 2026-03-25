@@ -1,8 +1,8 @@
-# PythonTools
+## PythonTools
 
 PythonTools is an open, community-maintained Python toolkit repository. Anyone may add helpers, improve shared tools, and work together—just leave other people’s work intact.
 
-## Contribution guidelines
+### Contribution guidelines
 
 0. Treat the repo as a collaborative playground: explore freely but respect the work others have already shared.
 1. New tools are welcome from anyone; deleting modules you did not author is prohibited.
